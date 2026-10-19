@@ -1,5 +1,4 @@
 import { test, expect } from '@playwright/test'
-import { BugerEatsRegisterLocators } from '../locators/BugerEatsRegisterLocators'
 
 test('test', async ({ page }) => {
   await page.goto('https://buger-eats.vercel.app/')
